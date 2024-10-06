@@ -1,0 +1,8 @@
+(ns tests.issuetests.issue-test
+  (:require [basilisp.test :refer [deftest are is testing]]))
+
+(println :calc (+ 5 3))
+
+(deftest 5-test []
+  (is (= 5 5)))
+
